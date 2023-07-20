@@ -1,0 +1,1 @@
+function getLocalStorageItem(){return localStorage.getItem("favor")}function setLocalStorageItem(o){console.log(o),localStorage.setItem("favor",o),console.log(localStorage.getItem("favor"))}export{getLocalStorageItem,setLocalStorageItem};

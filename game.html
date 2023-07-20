@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Games Review</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="page__body">
+    <section class="game">
+      <h1 class="visually-hidden">Game</h1>
+      <div class="game__slider">
+        <div class="game__card-container">
+          <img class="game__img" id="img1" src="" alt="">
+          <img class="game__img" id="img2" src="" alt="">
+          <img class="game__img" id="img3" src="" alt="">
+        </div>
+        <div class="game__wrapper">
+          <div class="game__container">
+           <p class="game__name"></p>
+            <p class="game__genre"></p>
+            <p class="game__text"></p>
+          </div>
+        </div>
+        <a class="game__button-back">
+          <span class="game__span"><</span>
+          <span class="game__span2"></span>
+        </a>
+        <button type="button" class="game__button-watchlist">
+          <svg class="game__button-svg" width="24" height="24">
+            <use xlink:href="img/icons/stack.svg#heart-icon"></use>
+          </svg>
+        </button>
+      </div>
+      <button type="button" class="game__button-left">
+        <svg class="button-left__svg" width="24" height="24">
+          <use xlink:href="img/icons/stack.svg#right-arrow"></use>
+        </svg>
+      </button>
+      <button type="button" class="game__button-right">
+        <svg class="button-right__svg" width="24" height="24">
+          <use xlink:href="img/icons/stack.svg#right-arrow"></use>
+        </svg>
+      </button>
+    </section>
+    <footer class="footer">
+      <nav class="main-nav">
+        <li>
+          <a class="main-nav__item" href="index.html" id="games-button">
+            <svg class="main-nav__svg-games" width="24" height="24">
+              <use xlink:href="img/icons/stack.svg#home-icon"></use>
+            </svg>
+            <p class="main-nav__item-text">Home</p>
+          </a>
+        </li>
+        <li>
+          <a class="main-nav__item" href="" id="watch-button">
+            <svg class="main-nav__svg-watch" width="24" height="24">
+              <use xlink:href="img/icons/stack.svg#heart-icon"></use>
+            </svg>
+            <p class="main-nav__item-text">Top</p>
+          </a>
+        </li>
+      </nav>
+    </footer>
+    <script src="js/game.js" type="module" defer></script>
+  </body>
+</html>
