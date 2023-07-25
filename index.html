@@ -8,7 +8,7 @@
   </head>
   <body class="page__body">
     <section class="genre">
-      <h1 class="genre__title">Games Review</h1>
+      <h1 class="genre__title visually-hidden">Games Review</h1>
       <div class="genre__list-wrapper">
         <h2 class="genre__genre-title">Choose a genre</h2>
         <ul class="genre__list">
@@ -30,13 +30,25 @@
           <li class="genre__item">
             <p class="genre__text">Fantasy</p>
           </li>
+          <li class="genre__item">
+            <p class="genre__text">Adventure</p>
+          </li>
+          <li class="genre__item">
+            <p class="genre__text">Arcade</p>
+          </li>
         </ul>
       </div>
       <div class="genre__img-item">
         <h2 class="genre__img-title">Game of a day</h2>
         <a href="game.html" class="games__link">
           <img class="genre__img" src="img/witcher-icon2.jpg" alt="">
-          <p class="genre__img-text">The Witcher 3: Wild Hunt</p>
+          <div class="genre__img-wrapper">
+            <p class="genre__img-text">The Witcher 3: Wild Hunt</p>
+            <svg class="genre__svg" width="24" height="24">
+              <use xlink:href="img/icons/stack.svg#star-icon"></use>
+            </svg>
+            <p class="genre__img-raiting">9.5</p>
+          </div>
         </a>
       </div>
     </section>
